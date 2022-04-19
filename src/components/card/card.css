@@ -1,0 +1,49 @@
+.card {
+    /* margin: auto; */
+    /* padding: auto; */
+    width: 175px;
+    /* align-self: center; */
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+}
+
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: rgb(255, 255, 255);
+    padding: 2px 2px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.card > p {
+    margin-top: 2px;
+}
+
+.card--people {
+    width: 100%;
+    border-radius: 9px;
+}
+.card--score-row {
+    display: flex;
+    align-items: center;
+    /* margin: 0px; */
+}
+
+.card--star {
+    height: 14px;
+    width: 14px;
+}
+
+.grey  {
+    margin: 0px;
+    color: #918E9B;
+}
+
+.bold {
+    margin: 0px 0px;
+    font-weight: 1000;
+}

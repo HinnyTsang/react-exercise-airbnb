@@ -1,0 +1,22 @@
+.hero {
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    /* padding: auto; */
+    margin: 0px 20px;
+}
+
+.hero--photo {
+    max-width: 500px;
+    align-self: center;
+}
+
+
+.hero--header {
+    margin-bottom: 16px;
+}
+
+.hero--paragraph {
+    margin-top: 0px;
+}
